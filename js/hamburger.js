@@ -12,6 +12,18 @@ function hamburgerToggle(){
        nav.classList.replace('append-nav', 'collapse-nav') 
        plank.classList.replace('show-plank', 'hide-plank')
        hamburger.classList.toggle('change');
+    
     }
     
 }
+
+function footerText(){
+    var d = new Date();
+    var year = d.getFullYear();
+    var footer = document.querySelector('#powered-by');
+    footer.innerHTML = `<h1>Powered by MSSIAIICT 2019 - ${year}`;
+}
+
+setTimeout(() => {
+    footerText();
+}, 100);
