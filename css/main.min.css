@@ -16,6 +16,11 @@
 
 html, body {
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  font-weight: black;
 }
 
 .bar1, .bar2, .bar3 {
